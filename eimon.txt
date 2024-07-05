@@ -1,0 +1,7 @@
+    public function lfCheckError(SC_FormParam &$objFormParam)
+    {
+        // 入力データを渡す。
+        $arrErr = $objFormParam->checkError();
+
+        return $arrErr;
+    }
