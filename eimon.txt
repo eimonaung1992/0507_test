@@ -5,3 +5,11 @@
 
         return $arrErr;
     }
+
+        public function lfCheckError2(SC_FormParam &$objFormParam)
+    {
+        // 入力データを渡す。
+        $arrErr = $objFormParam->checkError();
+
+        return $arrErr;
+    }
